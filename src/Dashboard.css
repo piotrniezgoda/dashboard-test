@@ -1,0 +1,111 @@
+.App-dashboard {
+  text-align: center;
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.info-heading {
+  text-transform: none;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logout-button {
+  padding: .6em 4em;
+  font-size: 1em;
+  border-radius: .8em;
+  border: 2px solid #282c34;
+  margin-top: 1.4em;
+  cursor: pointer;
+  font-weight: bold;
+  background: #fff;
+}
+
+.info-box {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #9f9f9f;
+  border-radius: .8em;
+  margin-top: 3em;
+}
+
+.info-data {
+  font-size: 1em;
+  margin-bottom: .1em;
+  color: #fff;
+  text-align: left;
+}
+
+.span-bold {
+  font-weight: bold;
+}
+
+.span-green {
+  color: #bada55;
+}
+
+.section-title {
+  color: #fff;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.users-list {
+  padding: 0;
+  list-style: none;
+}
+
+.users-list-element {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1em 0;
+  border: 2px solid #fff;
+  padding: 1.5em;
+  border-radius: 1em;
+  position: relative;
+}
+
+.users-list-element-active {
+  border-color: #bada55;
+}
+
+.users-list-element > p {
+  margin: .3em 0;
+}
+
+.delete-button {
+  position: absolute;
+  right: -6em;
+  top: 50%;
+  padding: 0;
+  transform: translateY(-50%);
+  width: 5em;
+  height: 3em;
+  border-radius: .6em;
+  font-weight: bold;
+  background-color: rgb(181, 9, 9);
+  color: #fff;
+  font-size: 1.1em;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  opacity: .8;
+}
